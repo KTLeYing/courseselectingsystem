@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mzl.dao.CourseDao">
+    <select id="queryCourseById" resultType="com.mzl.model.Course" parameterType="Course">
+         select * from  course where teaId = #{id}
+    </select>
+    <select id="selectInsIdByClassId" resultType="java.lang.Integer" parameterType="int">
+        select  insId from course_limit where classId = #{classId}
+    </select>
+    <select id="selectNameByInsId" resultType="java.lang.String" parameterType="int">
+        select insName from Institution where insId = #{id}
+    </select>
+    <select id="queryAllIns" resultType="com.mzl.model.Institution">
+        select * from Institution
+    </select>
+    <select id="queryAllCourse" resultType="com.mzl.model.Course">
+        select * from Course;
+    </select>
+    <select id="queryCourseIdByStuId" resultType="java.lang.Integer" parameterType="int">
+        select classId from Course_choose where stuId = #{stuid}
+    </select>
+    <select id="selectTeaNameByTeaId" resultType="java.lang.String" parameterType="int">
+        select teaName from teacher where teaId = #{teaId}
+    </select>
+    <select id="queryInsIdByCourseId" resultType="java.lang.Integer" parameterType="int">
+        select insId from Course_limit  where classId = #{classId}
+    </select>
+    <select id="selectCourseByClassId" resultType="com.mzl.model.Course" parameterType="int">
+        select * from course where classId = #{classId}
+    </select>
+    <select id="addChooseNum" parameterType="int">
+        UPDATE Course SET classChooseNum = classChooseNum + 1 WHERE classId = #{classId}
+    </select>
+    <insert id="addCourseChoose" parameterType="Course_choose">
+       insert into course_choose(stuId, classId, score) values(#{stuId}, #{classId}, #{score})
+    </insert>
+    <insert id="insertCourse" parameterType="Course" useGeneratedKeys="true" keyProperty="classId" keyColumn="classId">
+        INSERT INTO Course(className,classNum,teaId,classChooseNum)
+        VALUES (#{className},#{classNum},#{teaId},#{classChooseNum})
+    </insert>
+    <insert id="insertInsLimit" parameterType="Course_limit">
+        INSERT INTO Course_limit (classId,insId)
+        VALUES (#{classId},#{insId})
+    </insert>
+    <select id="downChooseNum" parameterType="int">
+        update course set classChooseNum = classChooseNum - 1 where classId = #{classId}
+    </select>
+    <delete id="deleteCourseChoose" parameterType="Course_choose">
+        delete from Course_choose WHERE stuId = #{stuId} and classId = #{classId}
+    </delete>
+    <delete id="deleteInsLimit" parameterType="int">
+          DELETE FROM Course_limit WHERE classId=#{id}
+    </delete>
+    <delete id="deleteCourse" parameterType="int">
+        delete from course where classId = #{id}
+    </delete>
+    <delete id="deleteStuByClassId" parameterType="int">
+        delete from course_choose where classId = #{id}
+    </delete>
+    <delete id="deleteLimitByClassId" parameterType="int">
+        delete from course_limit where classId = #{id}
+    </delete>
+    <delete id="deleteStuCourse" parameterType="Course_choose">
+        delete from course_choose where classId = #{classId} and stuId = #{stuId}
+    </delete>
+    <select id="queryCourseInfoById" resultType="com.mzl.model.Course" parameterType="int">
+        SELECT * FROM Course WHERE classId = #{id}
+    </select>
+    <select id="selectScore" resultType="java.lang.Integer" parameterType="Course_choose">
+        select score from Course_choose where stuId = #{stuId} and classId = #{classId}
+    </select>
+    <select id="selectMaxCourseId" resultType="int">
+        SELECT MAX(classId) FROM Course
+    </select>
+    <select id="selectChooseNum" resultType="java.lang.Integer" parameterType="int">
+        select classChooseNum from course where classId = #{id}
+    </select>
+    <select id="queryStuIdByCourseId" resultType="com.mzl.model.Course_choose" parameterType="int">
+        select * from course_choose where classId = #{id}
+    </select>
+    <update id="updateCourse" parameterType="Course">
+         UPDATE Course SET
+         className=#{className},classNum=#{classNum},teaId=#{teaId},classChooseNum=#{classChooseNum}
+         WHERE classId=#{classId}
+    </update>
+    <update id="updateScore" parameterType="Course_choose">
+        update course_choose set score = #{score}
+        where stuId = #{stuId} and classId = #{classId}
+    </update>
+</mapper>
