@@ -67,6 +67,8 @@
 10. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/10.jpg)
 11. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/11.jpg)
+![](https://gitee.com/ZeroWdd/studentmanager/raw/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/11.jpg)  
 
 
+## 项目访问 :  
+浏览器访问路径： http://localhost:8080/manage
