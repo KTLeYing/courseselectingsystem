@@ -46,27 +46,27 @@
 > 系统管理
 
 ## 项目截图：
-1、注册页面  
+1. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/1.png)
-
+2. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/2.png)
-
+3. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/3.png)
-
+4. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/4.png)
-
+5. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/5.png)
-
+6. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/6.jpg)
-
+7. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/7.jpg)
-
+8. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/8.jpg)
-
+9. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/9.jpg)
-
+10. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/10.jpg)
-
+11. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/11.jpg)
 
 
