@@ -4,11 +4,11 @@
 
 ## 项目简介：
 
-在线考试系统旨在为学生提供一个在线考试的平台,在这里,学生不仅可以网上在线考试,而且可以浏览题库中心下的各个课程的题库,也可以在讨论区下发表自己的想法,当然也在帖子下留言评论。如果你是spring boot初学者，那么此项目非常适合你。如果喜欢，请随手给个star，谢谢。
+学生选课系统旨在为学生提供一个选课的平台,在这里，学生可以先查看浏览所有的选课详细信息，然后再进行选课操作。如果你是spring boot初学者，那么此项目非常适合你。如果喜欢，请随手给个star，谢谢。
 
 ## 采用技术 ： 
-- 前端：
-- 后端： SSM
+- 前端：HTML + CSS + JavaScript + Layui + Jquery + Ajax
+- 后端： Spring + SpringMVC + MyBatis
 
 ## 开发环境 ：
 - 工具：IDEA、Navicat、Git
@@ -29,63 +29,45 @@
 
 ## 功能模块 :  
 
-> 学生信息管理  
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 班级信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 教师信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 课程信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 选课信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 考勤信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 请假信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
-> 成绩信息管理
- - 客房类型设置✔
- - 客房设置✔
- - 操作员设置✔
+> 学生信息管理
+
+- 查询学生✔
+- 修改学生✔ 
+- 添加学生✔
+- 删除学生✔
+
+> 教师信息管理  
+
+ - 查询教师✔
+ - 修改教师✔
+ - 添加教师✔
+ - 删除教师✔
+
+> 课程管理
+
+- 添加课程✔
+- 删除课程✔
+- 查询课程✔
+
+> 选课管理
+ 
+- 选课✔
+- 查询选课✔
+- 退课✔
+
 
 ## 项目截图：
-1. 注册页面  
-![](https://img-blog.csdnimg.cn/20210316144932706.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
-2. 注册页面  
-![](https://img-blog.csdnimg.cn/20210316145656968.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
-3. 注册页面  
-![](https://github.com/KTLeYing/Test/blob/master/image/05e9bc2534299d711228a57af04fedd2.jpg)
-4. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/4.png)
-5. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/5.png)
-6. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/6.jpg)
-7. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/7.jpg)
-8. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/8.jpg)
-9. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/9.jpg)
-10. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/10.jpg)
-11. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/11.jpg)  
+1. 学生登录页面  
+![](https://raw.githubusercontent.com/KTLeYing/courseselectingsystem/master/image/1.png)
+2. 系统主页面  
+![](https://raw.githubusercontent.com/KTLeYing/courseselectingsystem/master/image/2.png)
+3. 个人信息页面  
+![](https://raw.githubusercontent.com/KTLeYing/courseselectingsystem/master/image/3.png)
+4. 排课页面  
+![](https://raw.githubusercontent.com/KTLeYing/courseselectingsystem/master/image/4.png)
+5. 选课页面  
+![](https://raw.githubusercontent.com/KTLeYing/courseselectingsystem/master/image/5.png) 
 
 
 ## 项目访问 :  
-浏览器访问路径： http://localhost:8080/manage
+浏览器访问路径： http://localhost:8080/courseselectingsystem_war_exploded/
