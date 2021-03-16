@@ -46,7 +46,7 @@
 > 系统管理
 
 ## 项目截图：
-
+1、注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/1.png)
 
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/2.png)
