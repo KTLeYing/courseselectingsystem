@@ -68,7 +68,7 @@
 2. 注册页面  
 ![](https://img-blog.csdnimg.cn/20210316145656968.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
 3. 注册页面  
-![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/3.png)
+![](https://github.com/KTLeYing/Test/blob/master/image/05e9bc2534299d711228a57af04fedd2.jpg)
 4. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/4.png)
 5. 注册页面  
