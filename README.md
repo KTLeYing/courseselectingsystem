@@ -7,7 +7,7 @@
 学生选课系统旨在为学生提供一个选课的平台,在这里，学生可以先查看浏览所有的选课详细信息，然后再进行选课等操作。
 
 ## 采用技术 ： 
-- 前端：HTML + CSS + JavaScript + Layui + Jquery + Ajax
+- 前端：JSP + CSS + JavaScript + Layui + Jquery + Ajax
 - 后端： Spring + SpringMVC + MyBatis + MD5
 
 ## 开发环境 ：
