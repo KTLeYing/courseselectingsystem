@@ -4,7 +4,7 @@
 
 ## 项目简介：
 
-学生选课系统旨在为学生提供一个选课的平台,在这里，学生可以先查看浏览所有的选课详细信息，然后再进行选课等操作。
+学生选课系统旨在为学生提供一个选课的平台,在这里，学生可以先查看浏览所有的选课详细信息，然后再进行选课等操作。教师则可以在系统里排课，并对自己的课程进行管理。
 
 ## 采用技术 ： 
 - 前端：JSP + CSS + JavaScript + Layui + Jquery + Ajax
@@ -62,12 +62,16 @@
 ![](https://img-blog.csdnimg.cn/2021031700071695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
 2. 系统主页面  
 ![](https://img-blog.csdnimg.cn/20210317000737323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
-3. 个人信息页面  
+3. 个人信息页面(学生)  
 ![](https://img-blog.csdnimg.cn/20210317000744546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
-4. 排课页面  
+4. 课程页面(学生) 
 ![](https://img-blog.csdnimg.cn/20210317000752468.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center)
-5. 选课页面  
+5. 选课页面(学生)  
 ![](https://img-blog.csdnimg.cn/20210317000759578.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center) 
+6. 个人信息页面(老师)  
+![](https://img-blog.csdnimg.cn/20210317010311747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center) 
+7. 课程管理页面(老师)  
+![](https://img-blog.csdnimg.cn/20210317010348239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU0ODMxMA==,size_16,color_FFFFFF,t_70#pic_center) 
 
 
 ## 项目访问 :  
