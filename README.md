@@ -64,7 +64,7 @@
 
 ## 项目截图：
 1. 注册页面  
-![哈哈](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/1.png)
+![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/1.png)
 2. 注册页面  
 ![](https://gitee.com/ZeroWdd/studentmanager/raw/master/项目截图/2.png)
 3. 注册页面  
