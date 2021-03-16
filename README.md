@@ -12,9 +12,9 @@
 
 ## 开发环境 ：
 - 工具：IDEA、Navicat、Git
-- 环境： JDK 1.8、Tomcat 7.0、Mysql 8.0
-- 项目管理: Maven
-- 代码托管平台: GitHub
+- 环境：JDK 1.8、Tomcat 7.0、Mysql 8.0
+- 项目管理：Maven
+- 代码托管平台：GitHub
 
 ## 开发流程：  
 1、数据库设计  
