@@ -8,7 +8,7 @@
 
 ## 采用技术 ： 
 - 前端：JSP + CSS + JavaScript + Layui + Jquery + Ajax
-- 后端： Spring + SpringMVC + MyBatis + MD5
+- 后端：Spring + SpringMVC + MyBatis + MD5
 
 ## 开发环境 ：
 - 工具：IDEA、Navicat、Git
